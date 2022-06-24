@@ -1,0 +1,44 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background-color: #e6e8ea;
+}
+
+.show {
+  margin-left: 20%;
+  width: auto;
+  padding: 2rem;
+}
+
+.grid.are-images-unloaded {
+  opacity: 0;
+}
+
+.grid {
+  max-width: 2000px;
+}
+
+/* clearfix */
+/* .grid:after {
+  content: '';
+  display: block;
+  clear: both;
+} */
+
+.grid-sizer, .grid-item {
+  width: calc(33.333% - 10px);
+}
+
+.grid-item {
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
